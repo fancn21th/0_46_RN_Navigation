@@ -1,4 +1,11 @@
 import React from 'react';
 import Navigation from '../Navigations'
+import { Root } from 'native-base'
 
-export default (<Navigation/>)
+const App = () => (
+    <Root>
+      <Navigation/>
+    </Root>
+)
+
+export default App
