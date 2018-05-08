@@ -1,16 +1,14 @@
-import React from 'react'
-import { TabNavigator } from 'react-navigation'
-import HomeScreen from '../Screens/Home'
-import MeScreen from '../Screens/Me'
-import TabBarComponent from '../Components/Tab'
+import React from 'react';
+import { createStackNavigator } from 'react-navigation';
+import HomeStack from './HomeStack'
+import Product from '../Screens/Product'
 
-export default TabNavigator(
-    {
-        Home: HomeScreen,
-        Me: MeScreen,
-    },
-    {
-        tabBarPosition: 'bottom',
-        tabBarComponent: TabBarComponent,
-    },
+export default createStackNavigator(
+  {
+    HomeStack: HomeStack,
+    Product: Product,
+  },
+  {
+    initialRouteName: 'HomeStack',
+  }
 );

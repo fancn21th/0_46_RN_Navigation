@@ -5,7 +5,7 @@ class MeScreen extends React.Component {
     render() {
         return (
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text>Settings!</Text>
+                <Text>Me!</Text>
             </View>
         );
     }
