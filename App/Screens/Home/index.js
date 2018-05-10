@@ -10,7 +10,8 @@ class HomeScreen extends React.Component {
               flex: 1,
               flexDirection: 'column',
               justifyContent: 'center',
-              alignItems: 'center'
+              alignItems: 'center',
+              backgroundColor: 'red',
             }}>
               <View>
                 <Text>Home!</Text>
